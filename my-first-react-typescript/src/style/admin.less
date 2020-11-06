@@ -1,0 +1,28 @@
+@import "./default.less";
+@import "./loading.less";
+.admin{
+  display: flex;
+  .admin-left{
+    background-color: #001529;
+     .nav-left {
+        height: calc(100vh);
+     }
+  }
+  .admin-right{
+    height: calc(100vh);
+    flex: 1;
+    background-color: @colorL;
+    overflow: auto;
+
+    .admin-right-header{
+    }
+
+    .admin-right-content{
+       position: relative;
+       padding: 20px;
+    }
+    .admin-right-footer{
+    }
+  }
+}
+

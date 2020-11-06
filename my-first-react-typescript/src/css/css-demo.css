@@ -1,0 +1,17 @@
+.css-demo {
+  border: 1px dashed maroon;
+  flex-wrap: wrap;
+}
+.css-demo .demo1 {
+  background-color: #1890ff;
+}
+.css-demo .demo2 {
+  background-color: #f9c700;
+}
+.css-demo .demo3 {
+  background-color: crimson;
+}
+.css-demo .demo4 {
+  background-color: mediumseagreen;
+}
+/*# sourceMappingURL=css-demo.css.map */
